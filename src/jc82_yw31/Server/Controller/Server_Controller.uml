@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_p4yM0GalEeOU-4u1CSQoww" name="Server_Controller">
+    <eAnnotations xmi:id="_qK-JAGalEeOU-4u1CSQoww" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_qK-wEGalEeOU-4u1CSQoww" source="codegen">
+        <details xmi:id="_qK-wEWalEeOU-4u1CSQoww" key="codegenDirectory" value="/FinalProject/src"/>
+        <details xmi:id="_SkHXAGamEeOU-4u1CSQoww" key="AssociatedSourceCode" value="/FinalProject/src/jc82_yw31/Server/Controller/Controller.java;521601990/1;/FinalProject/src/jc82_yw31/Server/Controller/MiniController.java;1332245451/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ShQQQGamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ShQQQWamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ShQ3UGamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ShQ3UWamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ShQ3UmamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ShReYGamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ShReYWamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ShReYmamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ShSFcGamEeOU-4u1CSQoww">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Sg9VUGamEeOU-4u1CSQoww" name="jc82_yw31">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Sg98YGamEeOU-4u1CSQoww" name="Server">
+        <packagedElement xmi:type="uml:Package" xmi:id="_Sg_KgWamEeOU-4u1CSQoww" name="Controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_ShObEGamEeOU-4u1CSQoww" name="Controller">
+            <ownedComment xmi:id="_SiCTYGamEeOU-4u1CSQoww">
+              <body>this is main controller of the whole game&#xD;
+@author chen&#xD;
+ *</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_Sh-pAGamEeOU-4u1CSQoww" name="model" visibility="private" type="_Shzp4WamEeOU-4u1CSQoww" association="_SiC6cGamEeOU-4u1CSQoww"/>
+            <ownedAttribute xmi:id="_Sh_QEWamEeOU-4u1CSQoww" name="frame" visibility="private" type="_Sh1fEWamEeOU-4u1CSQoww" association="_SiDhgWamEeOU-4u1CSQoww"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SiBFQGamEeOU-4u1CSQoww" name="Controller" specification="_ShTTkGamEeOU-4u1CSQoww">
+              <ownedParameter xmi:id="_SiBFQWamEeOU-4u1CSQoww" type="_ShObEGamEeOU-4u1CSQoww" direction="return"/>
+              <language>java</language>
+              <body>model = new MainModel(new ViewAdapter(){&#xD;
+&#xD;
+			public void append(String s) {&#xD;
+				frame.append(s);&#xD;
+				&#xD;
+			}&#xD;
+ 		&#xD;
+ 	});&#xD;
+ 	frame = new server_frame(new ModelAdapter(){&#xD;
+&#xD;
+			@Override&#xD;
+			public void createLobby() {&#xD;
+				try {&#xD;
+					IChatRoom localChatRoom = model.createLobby();&#xD;
+					model.start_miniC(localChatRoom);&#xD;
+				} catch (RemoteException e) {&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+				&#xD;
+			}&#xD;
+&#xD;
+&#xD;
+	&#xD;
+ 		&#xD;
+ 	}){&#xD;
+&#xD;
+			/**&#xD;
+			 * &#xD;
+			 */&#xD;
+			private static final long serialVersionUID = -4320716823137956324L;&#xD;
+ 		&#xD;
+ 	};&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SiBFQmamEeOU-4u1CSQoww" name="start" specification="_ShT6oGamEeOU-4u1CSQoww">
+              <language>java</language>
+              <body>frame.start();&#xD;
+ 	model.start_Server();&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SiBFQ2amEeOU-4u1CSQoww" name="main" specification="_ShUhsGamEeOU-4u1CSQoww">
+              <ownedParameter xmi:id="_SiBFRGamEeOU-4u1CSQoww" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SiBFRWamEeOU-4u1CSQoww" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>EventQueue.invokeLater(new Runnable() {&#xD;
+			public void run() {&#xD;
+				try {&#xD;
+					(new Controller()).start();&#xD;
+				} catch (Exception e) {&#xD;
+					e.printStackTrace();&#xD;
+				}&#xD;
+			}&#xD;
+		});		&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_ShTTkGamEeOU-4u1CSQoww" name="Controller" method="_SiBFQGamEeOU-4u1CSQoww">
+              <eAnnotations xmi:id="_ShTTkWamEeOU-4u1CSQoww" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_ShTTkmamEeOU-4u1CSQoww" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_ShTTk2amEeOU-4u1CSQoww" type="_ShObEGamEeOU-4u1CSQoww" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_ShT6oGamEeOU-4u1CSQoww" name="start" method="_SiBFQmamEeOU-4u1CSQoww">
+              <ownedComment xmi:id="_SiCTYWamEeOU-4u1CSQoww">
+                <body>start the main mvc</body>
+              </ownedComment>
+            </ownedOperation>
+            <ownedOperation xmi:id="_ShUhsGamEeOU-4u1CSQoww" name="main" isStatic="true" method="_SiBFQ2amEeOU-4u1CSQoww">
+              <ownedComment xmi:id="_SiCTYmamEeOU-4u1CSQoww">
+                <body>main thread&#xD;
+     * @param args</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_ShUhsWamEeOU-4u1CSQoww" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ShVIwGamEeOU-4u1CSQoww" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ShWW4GamEeOU-4u1CSQoww" name="MiniController">
+            <ownedComment xmi:id="_SiCTY2amEeOU-4u1CSQoww">
+              <body>the mini controller would controll the mini model and the mini view&#xD;
+so there are two fields in the controller &#xD;
+@author Administrator&#xD;
+ *</body>
+            </ownedComment>
+            <ownedAttribute xmi:id="_Sh_3IGamEeOU-4u1CSQoww" name="minimodel" visibility="private" type="_Sh4iY2amEeOU-4u1CSQoww" association="_SiEIkWamEeOU-4u1CSQoww"/>
+            <ownedAttribute xmi:id="_Sh_3ImamEeOU-4u1CSQoww" name="miniview" visibility="private" type="_Sh6XkWamEeOU-4u1CSQoww" association="_SiEvoWamEeOU-4u1CSQoww"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SiBsUGamEeOU-4u1CSQoww" name="MiniController" specification="_Sh9a4GamEeOU-4u1CSQoww">
+              <ownedParameter xmi:id="_SiBsUWamEeOU-4u1CSQoww" name="mainmodeladapter" type="_Sh4iYWamEeOU-4u1CSQoww"/>
+              <ownedParameter xmi:id="_SiBsUmamEeOU-4u1CSQoww" name="chatroom" type="_Sh37UWamEeOU-4u1CSQoww"/>
+              <ownedParameter xmi:id="_SiBsU2amEeOU-4u1CSQoww" type="_ShWW4GamEeOU-4u1CSQoww" direction="return"/>
+              <language>java</language>
+              <body>minimodel = new MiniModel(new MiniViewAdapter(){&#xD;
+			/**&#xD;
+			 * calls back to the view to append String on the textArea&#xD;
+			 */&#xD;
+			public void append(String s) {&#xD;
+				miniview.append(s);&#xD;
+			}&#xD;
+			/**&#xD;
+			 * calls back to the view to add the newly joined user's to the comboBox&#xD;
+			 */&#xD;
+			@Override&#xD;
+			public void addUserName(String name) {&#xD;
+				miniview.addUserName(name);				&#xD;
+			}&#xD;
+			/**&#xD;
+			 * append some information on the mini view&#xD;
+			 */&#xD;
+			public void appendInfo(String s) {&#xD;
+				miniview.appendInfo(s);				&#xD;
+			}&#xD;
+			/**&#xD;
+			 * add a new component to the miniview&#xD;
+			 */&#xD;
+			@Override&#xD;
+			public void addComponent(final String name, final Component newComp) {&#xD;
+&#xD;
+				Thread newThread = new Thread() {&#xD;
+				    public void run() {&#xD;
+				    	miniview.addComponent(name, newComp);&#xD;
+				    }&#xD;
+				};&#xD;
+ &#xD;
+				newThread.start();  &#xD;
+			}&#xD;
+&#xD;
+		}, mainmodeladapter, chatroom);&#xD;
+    &#xD;
+		miniview = new MiniView(new MiniModelAdapter(){&#xD;
+			/**&#xD;
+			 * quit the chatroom when the window is closed. Call the quit method in minimodel to remove the user &#xD;
+			 */&#xD;
+			public void quit() {&#xD;
+				minimodel.quit();	&#xD;
+			}&#xD;
+			/**&#xD;
+			 * send a text message to other users in the chatroom&#xD;
+			 */&#xD;
+			public void sendText(String text) {				&#xD;
+				minimodel.sendText(text);&#xD;
+			}&#xD;
+			/**&#xD;
+			 * call the invite method in minimodel and invite a remote user to the chatroom&#xD;
+			 */&#xD;
+			@Override&#xD;
+			public void invite(String remoteUser) {&#xD;
+				minimodel.invite(remoteUser);&#xD;
+&#xD;
+			}&#xD;
+			@Override&#xD;
+			public void startGame() {&#xD;
+				minimodel.sendMap();&#xD;
+				&#xD;
+			}&#xD;
+&#xD;
+		});&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SiBsVGamEeOU-4u1CSQoww" name="start" specification="_ShYMEGamEeOU-4u1CSQoww">
+              <language>java</language>
+              <body>minimodel.start();&#xD;
+		miniview.start();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SiBsVWamEeOU-4u1CSQoww" name="quit" specification="_ShYzIGamEeOU-4u1CSQoww">
+              <language>java</language>
+              <body>minimodel.quit();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_ShYMEGamEeOU-4u1CSQoww" name="start" method="_SiBsVGamEeOU-4u1CSQoww">
+              <ownedComment xmi:id="_SiCTZWamEeOU-4u1CSQoww">
+                <body>start the minicontroller by activating both the minimodel and the miniview</body>
+              </ownedComment>
+            </ownedOperation>
+            <ownedOperation xmi:id="_ShYzIGamEeOU-4u1CSQoww" name="quit" method="_SiBsVWamEeOU-4u1CSQoww">
+              <ownedComment xmi:id="_SiCTZmamEeOU-4u1CSQoww">
+                <body>quit the chat room associated with this mini-MVC</body>
+              </ownedComment>
+            </ownedOperation>
+            <ownedOperation xmi:id="_Sh9a4GamEeOU-4u1CSQoww" name="MiniController" method="_SiBsUGamEeOU-4u1CSQoww" raisedException="_ShzC0WamEeOU-4u1CSQoww">
+              <eAnnotations xmi:id="_Sh-B8WamEeOU-4u1CSQoww" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_Sh-B8mamEeOU-4u1CSQoww" key="create"/>
+              </eAnnotations>
+              <ownedComment xmi:id="_SiCTZGamEeOU-4u1CSQoww">
+                <body>the constructor of the mini controller&#xD;
+     * @param mainmodeladapter is the adpater used to communicated with the main model&#xD;
+     * @param chatroom is the chatroom used in the mini controller&#xD;
+     * @throws RemoteException</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_Sh9a4WamEeOU-4u1CSQoww" name="mainmodeladapter" type="_Sh4iYWamEeOU-4u1CSQoww"/>
+              <ownedParameter xmi:id="_Sh-B8GamEeOU-4u1CSQoww" name="chatroom" type="_Sh37UWamEeOU-4u1CSQoww"/>
+              <ownedParameter xmi:id="_Sh-B82amEeOU-4u1CSQoww" type="_ShWW4GamEeOU-4u1CSQoww" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SiC6cGamEeOU-4u1CSQoww" name="" memberEnd="_SiC6cWamEeOU-4u1CSQoww _Sh-pAGamEeOU-4u1CSQoww">
+            <ownedEnd xmi:id="_SiC6cWamEeOU-4u1CSQoww" name="" type="_ShObEGamEeOU-4u1CSQoww" association="_SiC6cGamEeOU-4u1CSQoww"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SiDhgWamEeOU-4u1CSQoww" name="" memberEnd="_SiDhgmamEeOU-4u1CSQoww _Sh_QEWamEeOU-4u1CSQoww">
+            <ownedEnd xmi:id="_SiDhgmamEeOU-4u1CSQoww" name="" type="_ShObEGamEeOU-4u1CSQoww" association="_SiDhgWamEeOU-4u1CSQoww"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SiEIkWamEeOU-4u1CSQoww" name="" memberEnd="_SiEIkmamEeOU-4u1CSQoww _Sh_3IGamEeOU-4u1CSQoww">
+            <ownedEnd xmi:id="_SiEIkmamEeOU-4u1CSQoww" name="" type="_ShWW4GamEeOU-4u1CSQoww" association="_SiEIkWamEeOU-4u1CSQoww"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SiEvoWamEeOU-4u1CSQoww" name="" memberEnd="_SiEvomamEeOU-4u1CSQoww _Sh_3ImamEeOU-4u1CSQoww">
+            <ownedEnd xmi:id="_SiEvomamEeOU-4u1CSQoww" name="" type="_ShWW4GamEeOU-4u1CSQoww" association="_SiEvoWamEeOU-4u1CSQoww"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Sg_xkGamEeOU-4u1CSQoww" name="Model">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Shzp4WamEeOU-4u1CSQoww" name="MainModel"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Sh0Q8WamEeOU-4u1CSQoww" name="ViewAdapter"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_Sg_xkWamEeOU-4u1CSQoww" name="View">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Sh04AWamEeOU-4u1CSQoww" name="ModelAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Sh1fEWamEeOU-4u1CSQoww" name="server_frame"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ShEqEGamEeOU-4u1CSQoww" name="MiniModel">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Sh37UWamEeOU-4u1CSQoww" name="ChatRoom"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Sh4iYWamEeOU-4u1CSQoww" name="MainModelAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Sh4iY2amEeOU-4u1CSQoww" name="MiniModel"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Sh5JcWamEeOU-4u1CSQoww" name="MiniViewAdapter"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_ShFRIGamEeOU-4u1CSQoww" name="MiniView">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Sh5wgWamEeOU-4u1CSQoww" name="MiniModelAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Sh6XkWamEeOU-4u1CSQoww" name="MiniView"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Sg-jcGamEeOU-4u1CSQoww" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Sg-jcWamEeOU-4u1CSQoww" name="awt">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ShybwGamEeOU-4u1CSQoww" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Sh3UQGamEeOU-4u1CSQoww" name="Component"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Sg_KgGamEeOU-4u1CSQoww" name="rmi">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ShzC0WamEeOU-4u1CSQoww" name="RemoteException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ShAYoGamEeOU-4u1CSQoww" name="comp310f13">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ShAYoWamEeOU-4u1CSQoww" name="rmiChat">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Sh1fE2amEeOU-4u1CSQoww" name="IChatRoom"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_qOPfcGalEeOU-4u1CSQoww">
+      <eAnnotations xmi:id="_qOQGgGalEeOU-4u1CSQoww" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_qOQGgWalEeOU-4u1CSQoww" base_Package="_p4yM0GalEeOU-4u1CSQoww">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_ShzC0GamEeOU-4u1CSQoww" base_Element="_ShybwGamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Shzp4GamEeOU-4u1CSQoww" base_Element="_ShzC0WamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh0Q8GamEeOU-4u1CSQoww" base_Element="_Shzp4WamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh04AGamEeOU-4u1CSQoww" base_Element="_Sh0Q8WamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh1fEGamEeOU-4u1CSQoww" base_Element="_Sh04AWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh1fEmamEeOU-4u1CSQoww" base_Element="_Sh1fEWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh2GIGamEeOU-4u1CSQoww" base_Element="_Sh1fE2amEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh37UGamEeOU-4u1CSQoww" base_Element="_Sh3UQGamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh4iYGamEeOU-4u1CSQoww" base_Element="_Sh37UWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh4iYmamEeOU-4u1CSQoww" base_Element="_Sh4iYWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh5JcGamEeOU-4u1CSQoww" base_Element="_Sh4iY2amEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh5wgGamEeOU-4u1CSQoww" base_Element="_Sh5JcWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh6XkGamEeOU-4u1CSQoww" base_Element="_Sh5wgWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_Sh6-oGamEeOU-4u1CSQoww" base_Element="_Sh6XkWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Sh_QEGamEeOU-4u1CSQoww" base_Element="_Sh-pAGamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Sh_QEmamEeOU-4u1CSQoww" base_Element="_Sh_QEWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Sh_3IWamEeOU-4u1CSQoww" base_Element="_Sh_3IGamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SiAeMGamEeOU-4u1CSQoww" base_Element="_Sh_3ImamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_SiDhgGamEeOU-4u1CSQoww" base_Element="_SiC6cGamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_SiEIkGamEeOU-4u1CSQoww" base_Element="_SiDhgWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_SiEvoGamEeOU-4u1CSQoww" base_Element="_SiEIkWamEeOU-4u1CSQoww"/>
+  <UMLLabProfile:Reference xmi:id="_SiFWsGamEeOU-4u1CSQoww" base_Element="_SiEvoWamEeOU-4u1CSQoww"/>
+</xmi:XMI>

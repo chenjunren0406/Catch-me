@@ -1,0 +1,8 @@
+K 13
+svn:externals
+V 213
+comp310f13 https://svn.rice.edu/r/comp310/course/FinalProject/F13/comp310f13
+provided https://svn.rice.edu/r/comp310/course/FinalProject/F13/provided
+map https://svn.rice.edu/r/comp310/course/FinalProject/F13/map
+
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/r/comp310/!svn/ver/41841/course/FinalProject/F13/comp310f13/rmiChat
+END
+IChatRoom.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/r/comp310/!svn/ver/38443/course/FinalProject/F13/comp310f13/rmiChat/IChatRoom.java
+END
+IStatusReject.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/r/comp310/!svn/ver/40467/course/FinalProject/F13/comp310f13/rmiChat/IStatusReject.java
+END
+IStatusFail.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/r/comp310/!svn/ver/38443/course/FinalProject/F13/comp310f13/rmiChat/IStatusFail.java
+END
+IRemoveUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/r/comp310/!svn/ver/38443/course/FinalProject/F13/comp310f13/rmiChat/IRemoveUser.java
+END
+IStatusOk.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/r/comp310/!svn/ver/38443/course/FinalProject/F13/comp310f13/rmiChat/IStatusOk.java
+END
+IChatRoomInvite.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/r/comp310/!svn/ver/39713/course/FinalProject/F13/comp310f13/rmiChat/IChatRoomInvite.java
+END
+IRequestCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/r/comp310/!svn/ver/38443/course/FinalProject/F13/comp310f13/rmiChat/IRequestCmd.java
+END
+IUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/r/comp310/!svn/ver/39770/course/FinalProject/F13/comp310f13/rmiChat/IUser.java
+END
+IAddUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/r/comp310/!svn/ver/38443/course/FinalProject/F13/comp310f13/rmiChat/IAddUser.java
+END
+IAddCmd.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/r/comp310/!svn/ver/38443/course/FinalProject/F13/comp310f13/rmiChat/IAddCmd.java
+END
+ITextMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/r/comp310/!svn/ver/38443/course/FinalProject/F13/comp310f13/rmiChat/ITextMessage.java
+END
+IHost.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/r/comp310/!svn/ver/39770/course/FinalProject/F13/comp310f13/rmiChat/IHost.java
+END

@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_oS5VoGa8EeOnU-6DiL9dEg">
+  <modelElement href="Server_Command.uml#_IfOVYGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Jad1oGbMEeORHrf5NMLniw" targetItem="_JazM0GbMEeORHrf5NMLniw" sourceItem="_JacAcGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JahgAWbMEeORHrf5NMLniw" targetItem="_Jazz7GbMEeORHrf5NMLniw" sourceItem="_JahgAGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JaylwGbMEeORHrf5NMLniw" source="_JazM0GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_AosGbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JaylwWbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_BPwGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JaylwmbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_Jaylw2bMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_AosWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JaylxGbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JaylxWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JaylxmbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-JGAGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jaylx2bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JaylyGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JfT5YWbMEeORHrf5NMLniw" targetItem="_JfYK0GbMEeORHrf5NMLniw" sourceItem="_JfT5YGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JfUgcGbMEeORHrf5NMLniw" source="_JfYK0GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_BPwWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JfWVo2bMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_B20GbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JfWVoGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JfWVoWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_BPwmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JfW8sWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JfW8sGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JfWVombMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-KUIWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JfXjwGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JfW8smbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JfVukWbMEeORHrf5NMLniw" targetItem="_JfYK52bMEeORHrf5NMLniw" sourceItem="_JfVukGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JfeRcWbMEeORHrf5NMLniw" targetItem="_Jfh70GbMEeORHrf5NMLniw" sourceItem="_JfeRcGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JfeRcmbMEeORHrf5NMLniw" source="_Jfh70GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_B20WbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JfgtsGbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_Cd4GbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JfgGoGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JfgGoWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_B20mbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JfhUwGbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JfgtsWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JfgGombMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2miniModelAdapt" navigable="true">
+      <modelElement href="Server_Command.uml#_I-LiQWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JfhUwmbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JfhUwWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JfoCcWbMEeORHrf5NMLniw" targetItem="_JfsT4GbMEeORHrf5NMLniw" sourceItem="_JfoCcGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JfopgGbMEeORHrf5NMLniw" source="_JfsT4GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_Cd4WbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JfrFwWbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_DE8GbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JfqesGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JfqesWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_Cd4mbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jfrs0GbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JfrFwmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JfrFwGbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-MwYWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jfrs0mbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jfrs0WbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Jfp3oGbMEeORHrf5NMLniw" targetItem="_JfsT8mbMEeORHrf5NMLniw" sourceItem="_JfpQkGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JfyagWbMEeORHrf5NMLniw" targetItem="_Jf1d0WbMEeORHrf5NMLniw" sourceItem="_JfyagGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JfyagmbMEeORHrf5NMLniw" source="_Jf1d0WbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_DE8WbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_Jf0Ps2bMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_DsAGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Jf0PsGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_Jf0PsWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_DE8mbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jf02wWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_Jf02wGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Jf0PsmbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-N-gWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jf02w2bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jf02wmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JfzooWbMEeORHrf5NMLniw" targetItem="_Jf1d6GbMEeORHrf5NMLniw" sourceItem="_JfzooGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Jf6WUGbMEeORHrf5NMLniw" source="_Jf-AsGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_DsAWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_Jf8ykmbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_ETEGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Jf8LgGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_Jf8ykGbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_DsAmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jf9ZoWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_Jf9ZoGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Jf8ykWbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-PMoWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jf9Zo2bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jf9ZombMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Jf7kcGbMEeORHrf5NMLniw" targetItem="_Jf-AwmbMEeORHrf5NMLniw" sourceItem="_Jf69YGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JgC5MWbMEeORHrf5NMLniw" targetItem="_JgGjkGbMEeORHrf5NMLniw" sourceItem="_JgC5MGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JgC5MmbMEeORHrf5NMLniw" source="_JgGjkGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_ETEWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JgEuY2bMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_FhMGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JgEuYGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JgEuYWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_ETEmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgFVcWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JgFVcGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JgEuYmbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-QawWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgFVc2bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgFVcmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JgLcEWbMEeORHrf5NMLniw" targetItem="_JgOfY2bMEeORHrf5NMLniw" sourceItem="_JgLcEGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JgMDIGbMEeORHrf5NMLniw" source="_JgOfY2bMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_FhMWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JgN4UWbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_GIQGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JgNRQGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JgNRQWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_FhMmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgN4U2bMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JgN4UmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JgN4UGbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-Ro4WbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgOfYWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgOfYGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JgMqMWbMEeORHrf5NMLniw" targetItem="_JgPGhGbMEeORHrf5NMLniw" sourceItem="_JgMqMGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JgTX4WbMEeORHrf5NMLniw" targetItem="_JgXCQGbMEeORHrf5NMLniw" sourceItem="_JgTX4GbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JgT-8GbMEeORHrf5NMLniw" source="_JgXCQGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_GIQWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JgV0IWbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_GvUGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JgVNEGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JgVNEWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_GIQmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgV0I2bMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JgV0ImbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JgV0IGbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2miniModelAdapt" navigable="true">
+      <modelElement href="Server_Command.uml#_I-S3AWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgWbMWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgWbMGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Jgb6wGbMEeORHrf5NMLniw" targetItem="_Jge-EGbMEeORHrf5NMLniw" sourceItem="_JgbTsGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Jgb6wWbMEeORHrf5NMLniw" source="_Jge-EGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_GvUWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_Jgdv8mbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_HWYGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JgdI4WbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_Jgdv8GbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_GvUmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgeXAWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JgeXAGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Jgdv8WbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-UFIWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgeXA2bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgeXAmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JgdI4GbMEeORHrf5NMLniw" targetItem="_Jge-J2bMEeORHrf5NMLniw" sourceItem="_Jgch0GbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JgjPgGbMEeORHrf5NMLniw" source="_JgmS0GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_HWYWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JglEsmbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_H9cGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JgkdoGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JglEsGbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_HWYmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JglrwWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JglrwGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JglEsWbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-VTQWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jglrw2bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JglrwmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JgrLUWbMEeORHrf5NMLniw" targetItem="_JguOoGbMEeORHrf5NMLniw" sourceItem="_JgrLUGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JgrLUmbMEeORHrf5NMLniw" source="_JguOoGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_H9cWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JgtAg2bMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_IkgGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JgtAgGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JgtAgWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_H9cmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgtnkWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JgtnkGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JgtAgmbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-WhYmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jgtnk2bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgtnkmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JgryYWbMEeORHrf5NMLniw" targetItem="_JguOrGbMEeORHrf5NMLniw" sourceItem="_JgryYGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JgygEGbMEeORHrf5NMLniw" targetItem="_Jg2KcGbMEeORHrf5NMLniw" sourceItem="_Jgx5AGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JgygEWbMEeORHrf5NMLniw" source="_Jg2KcGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_IkgWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_Jg0VQ2bMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_JLkGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Jg0VQGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_Jg0VQWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_IkgmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jg08UWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_Jg08UGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Jg0VQmbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-XvgmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jg1jYGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jg08UmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Jg7C8WbMEeORHrf5NMLniw" targetItem="_Jg-GQGbMEeORHrf5NMLniw" sourceItem="_Jg7C8GbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Jg7C8mbMEeORHrf5NMLniw" source="_Jg-GQGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_JLkWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_Jg84I2bMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_JyoGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Jg84IGbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_Jg84IWbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_JLkmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jg9fMWbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_Jg9fMGbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Jg84ImbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-ZksGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jg9fM2bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jg9fMmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Jg7qAWbMEeORHrf5NMLniw" targetItem="_Jg-GTGbMEeORHrf5NMLniw" sourceItem="_Jg7qAGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_JhCXsWbMEeORHrf5NMLniw" targetItem="_JhFbAGbMEeORHrf5NMLniw" sourceItem="_JhCXsGbMEeORHrf5NMLniw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_JhCXsmbMEeORHrf5NMLniw" source="_JhFbAGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I_JyoWbMEeORHrf5NMLniw"/>
+    <stereotypes xmi:id="_JhEM4WbMEeORHrf5NMLniw" name="Reference">
+      <modelElement href="Server_Command.uml#_I_KZsGbMEeORHrf5NMLniw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_JhDl0GbMEeORHrf5NMLniw" text=""/>
+    <sourceRole xmi:id="_JhDl0WbMEeORHrf5NMLniw" aggregationKind="NONE" name="">
+      <modelElement href="Server_Command.uml#_I_JyombMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JhEz8WbMEeORHrf5NMLniw" label="+"/>
+      <cardinality xmi:id="_JhEz8GbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_JhEM4GbMEeORHrf5NMLniw" aggregationKind="NONE" name="cmd2ModelAdapter" navigable="true">
+      <modelElement href="Server_Command.uml#_I-aLwmbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JhEz82bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JhEz8mbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JacAcGbMEeORHrf5NMLniw" sourceConnectionVisual="_Jad1oGbMEeORHrf5NMLniw" text="add new cmd command&#xD;&#xA;extends the datapacket algo cmd which the host type is IAddCmd&#xD;&#xA;@author Administrator&#xD;&#xA; *" item="_JazM0GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-x_MGbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JahgAGbMEeORHrf5NMLniw" sourceConnectionVisual="_JahgAWbMEeORHrf5NMLniw" text="the set the command to model adapter" item="_Jazz7GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-x_MWbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JfT5YGbMEeORHrf5NMLniw" sourceConnectionVisual="_JfT5YWbMEeORHrf5NMLniw" text="adduser cmd class &#xD;&#xA;extends the datapacket algo cmd which the host type is IaddUser&#xD;&#xA;@author Administrator&#xD;&#xA; *" item="_JfYK0GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-ymQWbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JfVukGbMEeORHrf5NMLniw" sourceConnectionVisual="_JfVukWbMEeORHrf5NMLniw" text="the set the command to model adapter" item="_JfYK52bMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-ymQmbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JfeRcGbMEeORHrf5NMLniw" sourceConnectionVisual="_JfeRcWbMEeORHrf5NMLniw" text="This cmd is use to handle when client answer the right question&#xD;&#xA;&#xD;&#xA;This cmd only run on the server side&#xD;&#xA;@author Junren&#xD;&#xA; *" item="_Jfh70GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-zNUGbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JfoCcGbMEeORHrf5NMLniw" sourceConnectionVisual="_JfoCcWbMEeORHrf5NMLniw" text="the default command used which when the user has no command to process the datapacket&#xD;&#xA; *" item="_JfsT4GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-zNUWbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JfpQkGbMEeORHrf5NMLniw" sourceConnectionVisual="_Jfp3oGbMEeORHrf5NMLniw" text="the set the command to model adapter" item="_JfsT8mbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-zNUmbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JfyagGbMEeORHrf5NMLniw" sourceConnectionVisual="_JfyagWbMEeORHrf5NMLniw" text="fail cmd class &#xD;&#xA;extends the datapacket algo cmd which the host type is IStatusFail&#xD;&#xA;@author Administrator&#xD;&#xA; *" item="_Jf1d0WbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-zNU2bMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JfzooGbMEeORHrf5NMLniw" sourceConnectionVisual="_JfzooWbMEeORHrf5NMLniw" text="the set the command to model adapter" item="_Jf1d6GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-zNVGbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Jf69YGbMEeORHrf5NMLniw" sourceConnectionVisual="_Jf7kcGbMEeORHrf5NMLniw" text="the set the command to model adapter" item="_Jf-AwmbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-zNVWbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JgC5MGbMEeORHrf5NMLniw" sourceConnectionVisual="_JgC5MWbMEeORHrf5NMLniw" text="This is cmd to move your sign one step forward in the map&#xA;@author Junren&#xA; *" item="_JgGjkGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-zNVmbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JgLcEGbMEeORHrf5NMLniw" sourceConnectionVisual="_JgLcEWbMEeORHrf5NMLniw" text="ok cmd class &#xD;&#xA;extends the datapacket algo cmd which the host type is IStatusOk&#xD;&#xA;@author Administrator&#xD;&#xA; *" item="_JgOfY2bMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-z0YGbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JgMqMGbMEeORHrf5NMLniw" sourceConnectionVisual="_JgMqMWbMEeORHrf5NMLniw" text="the set the command to model adapter" item="_JgPGhGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-z0YWbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JgTX4GbMEeORHrf5NMLniw" sourceConnectionVisual="_JgTX4WbMEeORHrf5NMLniw" text="When play answer one question, client will send this packet to server, no matter the answer is right or not&#xD;&#xA;@author Junren&#xD;&#xA; *" item="_JgXCQGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-z0YmbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JgbTsGbMEeORHrf5NMLniw" sourceConnectionVisual="_Jgb6wGbMEeORHrf5NMLniw" text="remove user cmd class &#xD;&#xA;extends the datapacket algo cmd which the host type is IRemoveUser&#xD;&#xA;@author Administrator&#xD;&#xA; *" item="_Jge-EGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-z0Y2bMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Jgch0GbMEeORHrf5NMLniw" sourceConnectionVisual="_JgdI4GbMEeORHrf5NMLniw" text="the set the command to model adapter" item="_Jge-J2bMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-z0ZGbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JgrLUGbMEeORHrf5NMLniw" sourceConnectionVisual="_JgrLUWbMEeORHrf5NMLniw" text="request cmd to request cmd for the unkown packet&#xD;&#xA;@author Administrator&#xD;&#xA; *" item="_JguOoGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-z0ZWbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JgryYGbMEeORHrf5NMLniw" sourceConnectionVisual="_JgryYWbMEeORHrf5NMLniw" text="adapter from the command to the minimodel" item="_JguOrGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-0bcGbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Jgx5AGbMEeORHrf5NMLniw" sourceConnectionVisual="_JgygEGbMEeORHrf5NMLniw" text="this is cmd is used to set teamNo to each player in the game&#xD;&#xA;@author junren&#xD;&#xA; *" item="_Jg2KcGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-0bcWbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Jg7C8GbMEeORHrf5NMLniw" sourceConnectionVisual="_Jg7C8WbMEeORHrf5NMLniw" text="The cmd to process with ITextMessage dataPacket&#xD;&#xA; *" item="_Jg-GQGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-0bcmbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Jg7qAGbMEeORHrf5NMLniw" sourceConnectionVisual="_Jg7qAWbMEeORHrf5NMLniw" text="adapter from the command to the minimodel" item="_Jg-GTGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-0bc2bMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_JhCXsGbMEeORHrf5NMLniw" sourceConnectionVisual="_JhCXsWbMEeORHrf5NMLniw" text="this cmd will pop up an window to show who win the game&#xD;&#xA;@author chen&#xD;&#xA; *" item="_JhFbAGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_I-0bdGbMEeORHrf5NMLniw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JazM0GbMEeORHrf5NMLniw" comments="_JacAcGbMEeORHrf5NMLniw" targetConnectionVisual="_Jad1oGbMEeORHrf5NMLniw" name="AddNewCmd" associationsOut="_JaylwGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IgoqoGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_Jazz4GbMEeORHrf5NMLniw" position="413.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jazz4WbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_Jazz4mbMEeORHrf5NMLniw" defaultValue="5754909863357256535L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-Ie8GbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jazz42bMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jazz5GbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jazz5WbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jazz5mbMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-JGAGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jazz52bMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-JtEGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jazz6GbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-JtEGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jazz6WbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jazz6mbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jazz62bMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jazz7GbMEeORHrf5NMLniw" comments="_JahgAGbMEeORHrf5NMLniw" targetConnectionVisual="_JahgAWbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I8rGYGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jazz7WbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_Jazz7mbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I8rGYWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jazz72bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Jazz8GbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I8uJsWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jazz8WbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I8uwwWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jazz8mbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I8x0EGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jazz82bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jazz9GbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I8uwwGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jazz9WbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jazz9mbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I8uJsmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jazz92bMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jazz-GbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I8uJs2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jazz-WbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jazz-mbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I8uJtGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jazz-2bMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JfYK0GbMEeORHrf5NMLniw" comments="_JfT5YGbMEeORHrf5NMLniw" targetConnectionVisual="_JfT5YWbMEeORHrf5NMLniw" name="AddUserCmd" associationsOut="_JfUgcGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IhGksGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_JfYK0WbMEeORHrf5NMLniw" position="-126.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JfYK0mbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_JfYK02bMEeORHrf5NMLniw" defaultValue="4204769376821222174L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-JtEWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JfYK1GbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JfYK1WbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JfYK1mbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JfYK12bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-KUIWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JfYK2GbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-K7MGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JfXjwWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-K7MGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JfYK2WbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JfYK2mbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JfYK22bMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JfYK3GbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I83ToGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JfYK3WbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I836sWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JfYK3mbMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JfYK32bMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I836sGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfYK4GbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JfYK4WbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I83ToWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfYK4mbMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JfYK42bMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I83TombMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfYK5GbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JfYK5WbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I83To2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfYK5mbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JfYK52bMEeORHrf5NMLniw" comments="_JfVukGbMEeORHrf5NMLniw" targetConnectionVisual="_JfVukWbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I86-AGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JfYK6GbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_JfYK6WbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I86-AWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfYK6mbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jfh70GbMEeORHrf5NMLniw" comments="_JfeRcGbMEeORHrf5NMLniw" targetConnectionVisual="_JfeRcWbMEeORHrf5NMLniw" name="BroadCastMoveStepCmd" associationsOut="_JfeRcmbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IhOggGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_Jfh70WbMEeORHrf5NMLniw" position="953.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jfh70mbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_Jfh702bMEeORHrf5NMLniw" defaultValue="410175459015823123L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-K7MWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jfh71GbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jfh71WbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jfh71mbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jfh712bMEeORHrf5NMLniw" name="cmd2miniModelAdapt">
+      <modelElement href="Server_Command.uml#_I-LiQWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jfh72GbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-MJUGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JfhUw2bMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-MJUGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jfh72WbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jfh72mbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jfh722bMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jfh73GbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I8-BUGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jfh73WbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I8_PcGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jfh73mbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I9BEombMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jfh732bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jfh74GbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I8-oY2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jfh74WbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jfh74mbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I8-oYGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jfh742bMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jfh75GbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I8-oYWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jfh75WbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jfh75mbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I8-oYmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jfh752bMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Jfh76GbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9BrsWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jfh76WbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9CSwGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jfh76mbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I9CSwWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jfh762bMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_Jfh77GbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9BrsmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jfh77WbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JfsT4GbMEeORHrf5NMLniw" comments="_JfoCcGbMEeORHrf5NMLniw" targetConnectionVisual="_JfoCcWbMEeORHrf5NMLniw" name="DefaultCmd" associationsOut="_JfopgGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IhUnIGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_JfsT4WbMEeORHrf5NMLniw" position="1509.0,165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JfsT4mbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_JfsT42bMEeORHrf5NMLniw" defaultValue="-3203983562115843200L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-MJUWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JfsT5GbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JfsT5WbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JfsT5mbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JfsT52bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-MwYWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JfsT6GbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-NXcGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jfrs02bMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-NXcGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JfsT6WbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JfsT6mbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JfsT62bMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JfsT7GbMEeORHrf5NMLniw" name="DefaultCmd">
+      <modelElement href="Server_Command.uml#_IhV1QGbMEeORHrf5NMLniw"/>
+      <keywords xmi:id="_JfsT7WbMEeORHrf5NMLniw" keyword="create"/>
+      <stereotypes xmi:id="_JfsT7mbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_IhZfoGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JfsT72bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JfsT8GbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_Ihci8GbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfsT8WbMEeORHrf5NMLniw" name="DefaultCmd">
+          <modelElement href="Server_Command.uml#_IhUnIGbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JfsT8mbMEeORHrf5NMLniw" comments="_JfpQkGbMEeORHrf5NMLniw" targetConnectionVisual="_Jfp3oGbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9EH8GbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JfsT82bMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_JfsT9GbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9EH8WbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfsT9WbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JfsT9mbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9FWEGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JfsT92bMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9F9IWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JfsT-GbMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JfsT-WbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9F9IGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfsT-mbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JfsT-2bMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9FWEWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfsT_GbMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JfsT_WbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9FWEmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfsT_mbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JfsT_2bMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9FWE2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_JfsUAGbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jf1d0WbMEeORHrf5NMLniw" comments="_JfyagGbMEeORHrf5NMLniw" targetConnectionVisual="_JfyagWbMEeORHrf5NMLniw" name="FailCmd" associationsOut="_JfyagmbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IhhbcGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_Jf1d0mbMEeORHrf5NMLniw" position="-648.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jf1d02bMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_Jf1d1GbMEeORHrf5NMLniw" defaultValue="2045931910154156561L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-NXcWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jf1d1WbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jf1d1mbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jf1d12bMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jf1d2GbMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-N-gWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jf1d2WbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-OlkGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jf1d0GbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-OlkGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jf1d2mbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jf1d22bMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jf1d3GbMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jf1d3WbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9KOkGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jf1d3mbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9K1oWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jf1d32bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jf1d4GbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9K1oGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf1d4WbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jf1d4mbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9KOkWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf1d42bMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jf1d5GbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9KOkmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf1d5WbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jf1d5mbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9KOk2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf1d52bMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Jf1d6GbMEeORHrf5NMLniw" comments="_JfzooGbMEeORHrf5NMLniw" targetConnectionVisual="_JfzooWbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9NR4WbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jf1d6WbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_Jf1d6mbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9NR4mbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf1d62bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jf-AsGbMEeORHrf5NMLniw" name="MapCmd" associationsOut="_Jf6WUGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_Ihm7AGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_Jf-AsWbMEeORHrf5NMLniw" position="2036.0,165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jf-AsmbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_Jf-As2bMEeORHrf5NMLniw" defaultValue="-2455107210424040306L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-OlkWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jf-AtGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jf-AtWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jf-AtmbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jf-At2bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-PMoWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jf-AuGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-PzsGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jf9ZpGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-PzsGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jf-AuWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jf-AumbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jf-Au2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+        <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jf-AvGbMEeORHrf5NMLniw" name="MapCmd">
+      <modelElement href="Server_Command.uml#_IhoJIGbMEeORHrf5NMLniw"/>
+      <keywords xmi:id="_Jf-AvWbMEeORHrf5NMLniw" keyword="create"/>
+      <stereotypes xmi:id="_Jf-AvmbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_IhowMmbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jf-Av2bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jf-AwGbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_IhowM2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf-AwWbMEeORHrf5NMLniw" name="MapCmd">
+          <modelElement href="Server_Command.uml#_Ihm7AGbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Jf-AwmbMEeORHrf5NMLniw" comments="_Jf69YGbMEeORHrf5NMLniw" targetConnectionVisual="_Jf7kcGbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9PHEGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jf-Aw2bMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_Jf-AxGbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9PuIGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf-AxWbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Jf-AxmbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9QVMGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jf-Ax2bMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9Q8QWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jf-AyGbMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jf-AyWbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9Q8QGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf-AymbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jf-Ay2bMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9QVMWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf-AzGbMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jf-AzWbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9QVMmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf-AzmbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jf-Az2bMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9QVM2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jf-A0GbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JgGjkGbMEeORHrf5NMLniw" comments="_JgC5MGbMEeORHrf5NMLniw" targetConnectionVisual="_JgC5MWbMEeORHrf5NMLniw" name="MoveCmd" associationsOut="_JgC5MmbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IhtosGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_JgGjkWbMEeORHrf5NMLniw" position="-1207.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JgGjkmbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_JgGjk2bMEeORHrf5NMLniw" defaultValue="2210576602498333568L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-PzsWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgGjlGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgGjlWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JgGjlmbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JgGjl2bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-QawWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgGjmGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-RB0GbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgFVdGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-RB0GbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgGjmWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgGjmmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JgGjm2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+        <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JgGjnGbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9V0wGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgGjnWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9Wb0WbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgGjnmbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I9Y4EGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgGjn2bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JgGjoGbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9Wb0GbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgGjoWbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JgGjombMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9V0wWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgGjo2bMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JgGjpGbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9V0wmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgGjpWbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JgGjpmbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9V0w2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgGjp2bMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JgGjqGbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9Y4EmbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgGjqWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9aGMGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgGjqmbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I9aGMWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgGjq2bMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_JgGjrGbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9Y4E2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgGjrWbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JgOfY2bMEeORHrf5NMLniw" comments="_JgLcEGbMEeORHrf5NMLniw" targetConnectionVisual="_JgLcEWbMEeORHrf5NMLniw" name="OkCmd" associationsOut="_JgMDIGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IhyhMGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_JgOfZGbMEeORHrf5NMLniw" position="-1750.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JgOfZWbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_JgPGcGbMEeORHrf5NMLniw" defaultValue="-7184340468899561589L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-RB0WbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgPGcWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgPGcmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JgPGc2bMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JgPGdGbMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-Ro4WbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgPGdWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-SP8GbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgOfYmbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-SP8GbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgPGdmbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgPGd2bMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JgPGeGbMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JgPGeWbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9cicGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgPGembMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9dJgWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgPGe2bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JgPGfGbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9dJgGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgPGfWbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JgPGfmbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9cicWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgPGf2bMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JgPGgGbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9cicmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgPGgWbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JgPGgmbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9cic2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgPGg2bMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JgPGhGbMEeORHrf5NMLniw" comments="_JgMqMGbMEeORHrf5NMLniw" targetConnectionVisual="_JgMqMWbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9e-sWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgPGhWbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_JgPGhmbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9flwGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgPGh2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JgXCQGbMEeORHrf5NMLniw" comments="_JgTX4GbMEeORHrf5NMLniw" targetConnectionVisual="_JgTX4WbMEeORHrf5NMLniw" name="PlayAnswerOneQuestionCmd" associationsOut="_JgT-8GbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_Ih2yoGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_JgXCQWbMEeORHrf5NMLniw" position="2573.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JgXCQmbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_JgXCQ2bMEeORHrf5NMLniw" defaultValue="-5293608128937518162L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-SP8WbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgXCRGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgXCRWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JgXCRmbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JgXCR2bMEeORHrf5NMLniw" name="cmd2miniModelAdapt">
+      <modelElement href="Server_Command.uml#_I-S3AWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgXCSGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-TeEGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgWbMmbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-TeEGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgXCSWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgXCSmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JgXCS2bMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JgXCTGbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9ha8GbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgXCTWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9ipEGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgXCTmbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I9keQGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgXCT2bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JgXCUGbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9iCAmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgXCUWbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JgXCUmbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9ha8WbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgXCU2bMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JgXCVGbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9iCAGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgXCVWbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JgXCVmbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9iCAWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgXCV2bMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JgXCWGbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9keQmbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgXCWWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9lFUWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgXCWmbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I9lsYGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgXCW2bMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_JgXCXGbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9lFUGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgXCXWbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jge-EGbMEeORHrf5NMLniw" comments="_JgbTsGbMEeORHrf5NMLniw" targetConnectionVisual="_Jgb6wGbMEeORHrf5NMLniw" name="RemoveUserCmd" associationsOut="_Jgb6wWbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_Ih7rIGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_Jge-EWbMEeORHrf5NMLniw" position="-2272.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jge-EmbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_Jge-E2bMEeORHrf5NMLniw" defaultValue="7028138001867665133L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-TeEWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jge-FGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jge-FWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jge-FmbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jge-F2bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-UFIWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jge-GGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-UsMGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgeXBGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-UsMGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jge-GWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jge-GmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jge-G2bMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jge-HGbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9nhkGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jge-HWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9oIoWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jge-HmbMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jge-H2bMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9oIoGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jge-IGbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jge-IWbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9nhkWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jge-ImbMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jge-I2bMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9nhkmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jge-JGbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jge-JWbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9nhk2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jge-JmbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Jge-J2bMEeORHrf5NMLniw" comments="_Jgch0GbMEeORHrf5NMLniw" targetConnectionVisual="_JgdI4GbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9p90WbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jge-KGbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_Jge-KWbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9p90mbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jge-KmbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JgmS0GbMEeORHrf5NMLniw" name="RenderableLayerCmd" associationsOut="_JgjPgGbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_Ih_8kGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_JgmS0WbMEeORHrf5NMLniw" position="3121.0,165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JgmS0mbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_JgmS02bMEeORHrf5NMLniw" defaultValue="4240318566418918124L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-UsMWbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JgmS1GbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgmS1WbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JgmS1mbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JgmS12bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-VTQWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgmS2GbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-V6UGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JglrxGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-V6UGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgmS2WbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JgmS2mbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JgmS22bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+        <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JgmS3GbMEeORHrf5NMLniw" name="RenderableLayerCmd">
+      <modelElement href="Server_Command.uml#_IiAjoGbMEeORHrf5NMLniw"/>
+      <keywords xmi:id="_JgmS3WbMEeORHrf5NMLniw" keyword="create"/>
+      <stereotypes xmi:id="_JgmS3mbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_IiBKsmbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgmS32bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JgmS4GbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_IiBKs2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgmS4WbMEeORHrf5NMLniw" name="RenderableLayerCmd">
+          <modelElement href="Server_Command.uml#_Ih_8kGbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_JgmS4mbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9saEGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgmS42bMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9tBImbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgmS5GbMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JgmS5WbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9tBIWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgmS5mbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JgmS52bMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9saEWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgmS6GbMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JgmS6WbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9saEmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgmS6mbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JgmS62bMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9tBIGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgmS7GbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JgmS7WbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9vdYGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JgmS7mbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9wEcGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgmS72bMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I9wEcWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JgmS8GbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_JgmS8WbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9vdYWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JgmS8mbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JguOoGbMEeORHrf5NMLniw" comments="_JgrLUGbMEeORHrf5NMLniw" targetConnectionVisual="_JgrLUWbMEeORHrf5NMLniw" name="RequestCmd" associationsOut="_JgrLUmbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IiGDMGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_JguOoWbMEeORHrf5NMLniw" position="-2794.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JguOombMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_JguOo2bMEeORHrf5NMLniw" defaultValue="-829865936215451104L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-WhYGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JguOpGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JguOpWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JguOpmbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JguOp2bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-WhYmbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JguOqGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-XIcmbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JgtnlGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-XIcmbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JguOqWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JguOqmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JguOq2bMEeORHrf5NMLniw" name="Cmd2miniModelAdapt">
+        <modelElement href="Server_Command.uml#_I7KqgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JguOrGbMEeORHrf5NMLniw" comments="_JgryYGbMEeORHrf5NMLniw" targetConnectionVisual="_JgryYWbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I9x5oGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JguOrWbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_JguOrmbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I9x5oWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JguOr2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JguOsGbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I9zHwGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JguOsWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9zu0GbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JguOsmbMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JguOs2bMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I9zHxGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JguOtGbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JguOtWbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I9zHwWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JguOtmbMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JguOt2bMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I9zHwmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JguOuGbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JguOuWbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I9zHw2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_JguOumbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jg2KcGbMEeORHrf5NMLniw" comments="_Jgx5AGbMEeORHrf5NMLniw" targetConnectionVisual="_JgygEGbMEeORHrf5NMLniw" name="SetTeamNoCmd" associationsOut="_JgygEWbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IiKUoGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_Jg2KcWbMEeORHrf5NMLniw" position="3637.0,165.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jg2KcmbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_Jg2Kc2bMEeORHrf5NMLniw" defaultValue="-8835648878382653902L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-XvgGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jg2KdGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jg2KdWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jg2KdmbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jg2Kd2bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-XvgmbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jg2KeGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-YWkmbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jg1jYWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-YWkmbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jg2KeWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jg2KembMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jg2Ke2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+        <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jg2KfGbMEeORHrf5NMLniw" name="SetTeamNoCmd">
+      <modelElement href="Server_Command.uml#_IiK7sGbMEeORHrf5NMLniw"/>
+      <keywords xmi:id="_Jg2KfWbMEeORHrf5NMLniw" keyword="create"/>
+      <stereotypes xmi:id="_Jg2KfmbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_IiLiwGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jg2Kf2bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jg2KgGbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_IiLiwWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg2KgWbMEeORHrf5NMLniw" name="SetTeamNoCmd">
+          <modelElement href="Server_Command.uml#_IiKUoGbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_Jg2KgmbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I92yIGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jg2Kg2bMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I94AQGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jg2KhGbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I95OYmbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jg2KhWbMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jg2KhmbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I93ZMmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg2Kh2bMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jg2KiGbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I92yIWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg2KiWbMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jg2KimbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I93ZMGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg2Ki2bMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jg2KjGbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I93ZMWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg2KjWbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Jg2KjmbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I951cWbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jg2Kj2bMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I96cgGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jg2KkGbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I96cgWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jg2KkWbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_Jg2KkmbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I951cmbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg2Kk2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Jg-GQGbMEeORHrf5NMLniw" comments="_Jg7C8GbMEeORHrf5NMLniw" targetConnectionVisual="_Jg7C8WbMEeORHrf5NMLniw" name="TextMessageCmd" associationsOut="_Jg7C8mbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IiPNIGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_Jg-GQWbMEeORHrf5NMLniw" position="-3316.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Jg-GQmbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_Jg-GQ2bMEeORHrf5NMLniw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-Y9oGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jg-GRGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jg-GRWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jg-GRmbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Jg-GR2bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-ZksGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jg-GSGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-Zks2bMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Jg9fNGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-Zks2bMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jg-GSWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_Jg-GSmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_Jg-GS2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+        <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Jg-GTGbMEeORHrf5NMLniw" comments="_Jg7qAGbMEeORHrf5NMLniw" targetConnectionVisual="_Jg7qAWbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I98RsGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_Jg-GTWbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_Jg-GTmbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I98RsWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg-GT2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Jg-GUGbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I984wGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_Jg-GUWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I9-G4GbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_Jg-GUmbMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_Jg-GU2bMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I99f0mbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg-GVGbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Jg-GVWbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I984wWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg-GVmbMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jg-GV2bMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I99f0GbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg-GWGbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Jg-GWWbMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I99f0WbMEeORHrf5NMLniw"/>
+        <type xmi:id="_Jg-GWmbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_JhFbAGbMEeORHrf5NMLniw" comments="_JhCXsGbMEeORHrf5NMLniw" targetConnectionVisual="_JhCXsWbMEeORHrf5NMLniw" name="WinOrLoseCmd" associationsOut="_JhCXsmbMEeORHrf5NMLniw">
+    <modelElement href="Server_Command.uml#_IiTekGbMEeORHrf5NMLniw"/>
+    <visualProperties xmi:id="_JhFbAWbMEeORHrf5NMLniw" position="4181.0,185.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_JhFbAmbMEeORHrf5NMLniw" label="+"/>
+    <attributes xmi:id="_JhFbA2bMEeORHrf5NMLniw" defaultValue="5674704554885870490L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Server_Command.uml#_I-aLwGbMEeORHrf5NMLniw"/>
+      <visibility xmi:id="_JhFbBGbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JhFbBWbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JhFbBmbMEeORHrf5NMLniw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_JhFbB2bMEeORHrf5NMLniw" name="cmd2ModelAdapter">
+      <modelElement href="Server_Command.uml#_I-aLwmbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JhFbCGbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-ay0mbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JhEz9GbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-ay0mbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JhFbCWbMEeORHrf5NMLniw" label="-"/>
+      <cardinality xmi:id="_JhFbCmbMEeORHrf5NMLniw" label="1" max="1" min="1"/>
+      <type xmi:id="_JhFbC2bMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+        <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_JhFbDGbMEeORHrf5NMLniw" name="apply">
+      <modelElement href="Server_Command.uml#_I-BKMGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JhFbDWbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-BxQWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JhFbDmbMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I-DmcWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JhFbD2bMEeORHrf5NMLniw" label="+"/>
+      <outParameters xmi:id="_JhFbEGbMEeORHrf5NMLniw">
+        <modelElement href="Server_Command.uml#_I-BxQGbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JhFbEWbMEeORHrf5NMLniw" name="ADataPacket">
+          <modelElement href="Server_Command.uml#_I7Ys8GbMEeORHrf5NMLniw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_JhFbEmbMEeORHrf5NMLniw" name="index">
+        <modelElement href="Server_Command.uml#_I-BKMWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JhFbE2bMEeORHrf5NMLniw" name="Class">
+          <modelElement href="Server_Command.uml#_I8rtcWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JhFbFGbMEeORHrf5NMLniw" name="host">
+        <modelElement href="Server_Command.uml#_I-BKMmbMEeORHrf5NMLniw"/>
+        <keywords xmi:id="_JhFbFWbMEeORHrf5NMLniw" keyword="final"/>
+        <type xmi:id="_JhFbFmbMEeORHrf5NMLniw" name="DataPacket">
+          <modelElement href="Server_Command.uml#_I7bJMWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_JhFbF2bMEeORHrf5NMLniw" name="params">
+        <modelElement href="Server_Command.uml#_I-BKM2bMEeORHrf5NMLniw"/>
+        <type xmi:id="_JhFbGGbMEeORHrf5NMLniw" name="Void">
+          <modelElement href="Server_Command.uml#_I8s7kWbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_JhFbGWbMEeORHrf5NMLniw" name="setCmd2ModelAdpt">
+      <modelElement href="Server_Command.uml#_I-ENgGbMEeORHrf5NMLniw"/>
+      <stereotypes xmi:id="_JhFbGmbMEeORHrf5NMLniw" name="LegacyStyledElement">
+        <modelElement href="Server_Command.uml#_I-E0kGbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_JhFbG2bMEeORHrf5NMLniw" name="Annotations">
+        <modelElement href="Server_Command.uml#_I-E0kWbMEeORHrf5NMLniw"/>
+      </stereotypes>
+      <visibility xmi:id="_JhFbHGbMEeORHrf5NMLniw" label="+"/>
+      <parameters xmi:id="_JhFbHWbMEeORHrf5NMLniw" name="cmd2ModelAdpt">
+        <modelElement href="Server_Command.uml#_I-ENgWbMEeORHrf5NMLniw"/>
+        <type xmi:id="_JhFbHmbMEeORHrf5NMLniw" name="ICmd2ModelAdapter">
+          <modelElement href="Server_Command.uml#_I7eMgGbMEeORHrf5NMLniw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
